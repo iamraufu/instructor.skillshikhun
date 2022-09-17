@@ -1,0 +1,22 @@
+.menubar {
+    background-color: #18113c;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    color: #000;
+    display: none;
+}
+
+.menubar-items {
+    background-color: #18113c;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menubar {
+        display: block;
+    }
+}

@@ -1,0 +1,77 @@
+[{
+        "id": "One",
+        "item": "ড্যাশবোর্ড",
+        "route": "/dashboard",
+        "image": "",
+        "subItem": [{
+                "id": "One",
+                "name": "Overview"
+            },
+            {
+                "id": "Two",
+                "name": "Analytics"
+            }
+        ]
+    },
+    {
+        "id": "Two",
+        "item": "কোর্স সমূহ",
+        "route": "/courses",
+        "image": "",
+        "subItem": [{
+                "id": "One",
+                "name": "All Courses"
+            },
+            {
+                "id": "Two",
+                "name": "Courses Category"
+            },
+            {
+                "id": "Three",
+                "name": "Single Category"
+            }
+        ]
+    },
+    {
+        "id": "Three",
+        "item": "সিএমএস",
+        "route": "/cms",
+        "image": "",
+        "subItem": [{
+                "id": "One",
+                "name": "Overview"
+            },
+            {
+                "id": "Two",
+                "name": "All Post"
+            },
+            {
+                "id": "Three",
+                "name": "New Post"
+            },
+            {
+                "id": "Four",
+                "name": "Category"
+            }
+        ]
+    },
+    {
+        "id": "Four",
+        "item": "লার্নার",
+        "route": "/learners",
+        "image": "",
+        "subItem": [{
+                "id": "One",
+                "name": "Instructor"
+            },
+            {
+                "id": "Two",
+                "name": "Students"
+            },
+            {
+                "id": "Three",
+                "name": "Agents"
+            }
+        ]
+    }
+]
