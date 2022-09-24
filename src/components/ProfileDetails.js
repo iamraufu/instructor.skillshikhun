@@ -13,7 +13,7 @@ const ProfileDetails = ({ instructor }) => {
 
     const updateInfo = data => {
         console.log(data);
-        fetch(`http://localhost:5000/instructor/${instructor._id}`, {
+        fetch(`https://api-skillshikhun.herokuapp.com/instructor/${instructor._id}`, {
             method: 'PATCH',
             headers: {
                 'Accept': 'application/json',
