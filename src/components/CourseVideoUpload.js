@@ -34,7 +34,7 @@ const CourseVideoUpload = () => {
             videoId: data.videoId
         }
 
-        fetch(`https://api-skillshikhun.herokuapp.com/${category}-live-class-video`,{
+        fetch(`https://skillshikhun.herokuapp.com/${category}-live-class-video`,{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
