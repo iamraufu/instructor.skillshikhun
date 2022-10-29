@@ -10,7 +10,7 @@ const DashboardMain = ({ title }) => {
     const [sales, setSales] = useState([]);
 
     useEffect(()=>{
-        fetch(`https://backend-skill-shikhun.herokuapp.com/get-payments/Live/Web Development`)
+        fetch(`https://api-skillshikhun.herokuapp.com/get-payments/Live/Web Development`)
         .then(res => res.json())
         .then(data => setSales(data))
     },[])

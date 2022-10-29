@@ -14,7 +14,7 @@ const CourseModule = () => {
     const [courseModules, setCourseModules] = useState([]);
 
     useEffect(() => {
-        fetch(`https://backend-skill-shikhun.herokuapp.com/courseModules`)
+        fetch(`https://api-skillshikhun.herokuapp.com/courseModules`)
             .then(res => res.json())
             .then(data => {
                 setCourseModules(data)
@@ -22,7 +22,7 @@ const CourseModule = () => {
     }, [])
 
     useEffect(() => {
-        fetch(`https://backend-skill-shikhun.herokuapp.com/courseModules/Digital Marketing`)
+        fetch(`https://api-skillshikhun.herokuapp.com/courseModules/Digital Marketing`)
             .then(res => res.json())
             .then(data => setCourseModule(data))
     }, [])
@@ -44,7 +44,7 @@ const CourseModule = () => {
             ]
         }
 
-        fetch('https://backend-skill-shikhun.herokuapp.com/addCourseModules', {
+        fetch('https://api-skillshikhun.herokuapp.com/addCourseModules', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -8,7 +8,7 @@ const ProfileMain = ({title}) => {
     const [instructor, setInstructor] = useState({});
 
     useEffect(()=>{
-        fetch(`https://backend-skill-shikhun.herokuapp.com/instructor/631323e1805ec0b9fa1be005`)
+        fetch(`https://api-skillshikhun.herokuapp.com/instructor/631323e1805ec0b9fa1be005`)
         .then(res => res.json())
         .then(data=> setInstructor(data.result))
     },[])
